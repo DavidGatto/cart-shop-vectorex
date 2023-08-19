@@ -9,12 +9,12 @@ let buttonsAdd = document.querySelectorAll(".btn-add");
 const numCart = document.querySelector("#num-cart");
 
 // carga los productos desde el archivo JSON
-fetch("./products.json")
-.then(response => response.json())
-.then(data => {
-    cartProducts = data;
-    showProducts(cartProducts);
-})
+fetch("../products.json")
+    .then(response => response.json())
+    .then(data => {
+        cartProducts = data;
+        showProducts(cartProducts);
+    })
 
 // funcion para mostrar los productos 
 function showProducts(chooseProduct) {
@@ -61,9 +61,9 @@ chosenButton.forEach(button => {
 });
 
 // se le agrega un eventlistener a los botones add
-function buttonAdd(){
+function buttonAdd() {
     buttonsAdd = document.querySelectorAll(".btn-add");
-    
+
     buttonsAdd.forEach(button => {
         button.addEventListener("click", addToCart);
     });
@@ -71,11 +71,11 @@ function buttonAdd(){
 
 // guarda el carrito en el localstorage
 const cartUpload = JSON.parse(localStorage.getItem("products_cart")) || [];
-if(cartUpload){
+if (cartUpload) {
     cart = cartUpload;
     numUpload();
-} else{
-cart = [];
+} else {
+    cart = [];
 }
 
 // funcion para agregar un producto al carrito
@@ -102,7 +102,7 @@ function addToCart(e) {
 // funcion para actualizar el numero del carrito
 function numUpload() {
     let newNumCart = cart.reduce((acc, product) => acc + product.quantity, 0);
-numCart.innerText = newNumCart;
+    numCart.innerText = newNumCart;
 }
 
 

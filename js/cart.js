@@ -117,11 +117,11 @@ function shoppingCart() {
     cartEmpty.classList.add("d-none");
     containerProducts.classList.add("d-none");
     containerElements.classList.add("d-none");
-    
+
     Swal.fire({
         title: '¡Successful purchase!',
         text: 'Thank you very much for your purchase',
         icon: 'success',
         confirmButtonText: 'Accept'
-      })
+    })
 }

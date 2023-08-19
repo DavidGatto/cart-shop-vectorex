@@ -1,8 +1,8 @@
 [
     {
         "id": "shirt-1",
-        "title": "Way Too High Tee",
-        "image": "./assets/shirts/shirt-1.png",
+        "title": "B$TRD Not Pain",
+        "image": "../assets/shirts/shirt-1.webp",
         "category": {
             "name": "Shirts",
             "id": "shirts"
@@ -12,7 +12,7 @@
     {
         "id": "short-1",
         "title": "Represent Storms",
-        "image": "./assets/shorts/short-2.jpg",
+        "image": "../assets/shorts/short-1.png",
         "category": {
             "name": "Shorts",
             "id": "shorts"
@@ -21,8 +21,8 @@
     },
     {
         "id": "shirt-2",
-        "title": "Dropper White Tee",
-        "image": "./assets/shirts/shirt-2.png",
+        "title": "Keet Simple Bastard",
+        "image": "../assets/shirts/shirt-2.jpeg",
         "category": {
             "name": "Shirts",
             "id": "shirts"
@@ -31,8 +31,8 @@
     },
     {
         "id": "shirt-3",
-        "title": "9.02 | Arkhé Tee",
-        "image": "./assets/shirts/shirt-3.png",
+        "title": "Low Speed Black",
+        "image": "../assets/shirts/shirt-3.jpeg",
         "category": {
             "name": "Shirts",
             "id": "shirts"
@@ -41,8 +41,8 @@
     },
     {
         "id": "hoodie-1",
-        "title": "TheCure Hoodie",
-        "image": "./assets/hoodies/hoodie-1.jfif",
+        "title": "Simple Trash Bastard",
+        "image": "../assets/hoodies/hoodie-1.webp",
         "category": {
             "name": "Hoodies",
             "id": "hoodies"
@@ -52,7 +52,7 @@
     {
         "id": "hoodie-2",
         "title": "Ferrari race Y2k",
-        "image": "./assets/hoodies/hoodie-2.jpg",
+        "image": "../assets/hoodies/hoodie-2.png",
         "category": {
             "name": "Hoodies",
             "id": "hoodies"
@@ -61,8 +61,8 @@
     },
     {
         "id": "shirt-4",
-        "title": "Deep Heart",
-        "image": "./assets/shirts/shirt-4.png",
+        "title": "Low Speed White",
+        "image": "../assets/shirts/shirt-4.jpeg",
         "category": {
             "name": "Shirts",
             "id": "shirts"
@@ -72,7 +72,7 @@
     {
         "id": "short-2",
         "title": "Tide Shorts",
-        "image": "./assets/shorts/short-2.jpg",
+        "image": "../assets/shorts/short-2.jpg",
         "category": {
             "name": "Shorts",
             "id": "shorts"
