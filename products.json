@@ -2,7 +2,7 @@
     {
         "id": "shirt-1",
         "title": "B$TRD Not Pain",
-        "image": "../assets/shirts/shirt-1.webp",
+        "image": "../assets/shirts/shirt-1.png",
         "category": {
             "name": "Shirts",
             "id": "shirts"
@@ -22,7 +22,7 @@
     {
         "id": "shirt-2",
         "title": "Keet Simple Bastard",
-        "image": "../assets/shirts/shirt-2.jpeg",
+        "image": "../assets/shirts/shirt-2.png",
         "category": {
             "name": "Shirts",
             "id": "shirts"
@@ -32,7 +32,7 @@
     {
         "id": "shirt-3",
         "title": "Low Speed Black",
-        "image": "../assets/shirts/shirt-3.jpeg",
+        "image": "../assets/shirts/shirt-3.png",
         "category": {
             "name": "Shirts",
             "id": "shirts"
@@ -41,8 +41,8 @@
     },
     {
         "id": "hoodie-1",
-        "title": "Simple Trash Bastard",
-        "image": "../assets/hoodies/hoodie-1.webp",
+        "title": "Allergid Bastard",
+        "image": "../assets/hoodies/hoodie-1.png",
         "category": {
             "name": "Hoodies",
             "id": "hoodies"
@@ -62,7 +62,7 @@
     {
         "id": "shirt-4",
         "title": "Low Speed White",
-        "image": "../assets/shirts/shirt-4.jpeg",
+        "image": "../assets/shirts/shirt-4.png",
         "category": {
             "name": "Shirts",
             "id": "shirts"
