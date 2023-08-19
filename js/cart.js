@@ -94,7 +94,7 @@ function itemUplodad() {
 // funcion para actualizar el precio total
 function priceUpload() {
     let priceCount = cart.reduce((acc, product) => acc + (product.price * product.quantity), 0);
-    totalPrice.textContent = `$ ${priceCount}`;
+    totalPrice.textContent = `Total Price $ ${priceCount}`;
 }
 
 // se le asigna un eventlistener al boton para borrar el carrito

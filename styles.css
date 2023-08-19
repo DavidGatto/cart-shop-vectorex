@@ -17,6 +17,11 @@
     color: rgb(15, 74, 121);
 }
 
+.img-icon{
+width: 90px;
+height: 60px;
+}
+
 .container-icon-cart:hover {
     color: blueviolet;
 }
