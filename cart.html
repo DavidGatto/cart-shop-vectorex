@@ -16,11 +16,11 @@
 
 <body>
     <header class="bg-white">
-        <nav class="navbar navbar-expand-lg bg-white p-4 fixed-top">
-            <div class="container-fluid justify-content-between">
-                <div>
-                    <a class="navbar-brand" href="#">Vectorex</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <nav class="navbar navbar-expand-lg bg-white p-3 fixed-top">
+            <div class="container-fluid justify-content-between gap-4">
+                <div class="d-flex gap-5">
+                    <a class="navbar-brand vectorex-cart" href="#">Vectorex</a>
+                    <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -48,12 +48,12 @@
 
         </div>
         <div id="container-elements" class="none container-elements">
-            <button id="clear-cart" class="text-danger p-2">Clear cart</button>
+            <button id="clear-cart" class="btn-cart text-danger p-2">Clear cart</button>
             <div>
-                <h3 id="total-price"></h3>
-                <h3 id="total-items"></h3>
+                <h3 class="text-buttons" id="total-price"></h3>
+                <h3 class="text-buttons" id="total-items"></h3>
             </div>
-            <button id="buy" class="p-3">Buy now</button>
+            <button id="buy" class="p-3 btn-cart-2 d-flex align-items-center text-white">Buy now</button>
         </div>
     </main>
 

@@ -21,7 +21,7 @@ function showProducts(chooseProduct) {
     containerProducts.innerHTML = "";
     chooseProduct.forEach(product => {
         const div = document.createElement("div");
-        div.classList.add("col-md-3")
+        div.classList.add("col-md-4", "col-lg-3")
         div.innerHTML = ` 
         <div class="card">
                         <img src="${product.image}" class="card-img-top card-img" alt="${product.title}">
